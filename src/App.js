@@ -14,7 +14,7 @@ import {
 
 import Home from './pages/Home'
 
-import UserList from './pages/UserList/UserList';
+// import UserList from './pages/UserList/UserList';
 
 import User from './pages/user/User';
 
