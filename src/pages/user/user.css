@@ -1,0 +1,45 @@
+.user{
+    flex: 4;
+}
+
+.checkBox{
+    width: 5px;
+    height:8px;
+}
+
+.inSide{
+    padding:5px;
+    font-size: 12px;
+}
+
+.outSide{
+    /* color:red; */
+    position: relative;
+    bottom: 15px;
+}
+
+.divOne{
+    position: relative;
+    padding-bottom: 15px;
+    top:-9px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.divTwo{
+    margin-bottom: 15px;
+}
+
+.tableDiv{
+    margin-top: 70px;
+    margin-left:85px;
+    width: 80%;
+    margin-bottom: 50px;
+    
+}
+
+.icons{
+    position: relative;
+    bottom: -3px;
+    cursor: pointer;
+}

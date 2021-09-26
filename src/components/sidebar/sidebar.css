@@ -1,0 +1,73 @@
+.sidebar{
+    flex: 1;
+    height:92.4vh;
+
+    /* height: calc(100vh-50px); */
+
+    /* height:calc(100vh-50px); */
+
+    /* i should use height: calc(100vh-50px);  but its not working here whatsoever */
+
+    /* background-color: rgb(251, 251, 255); */
+
+    background-color: rgb(251, 251, 255);
+    /* background-color: rgb(230, 224, 236); */
+
+    position: sticky;
+    top:50px;
+}
+
+.sidebarWrapper{
+    /* padding:25px; */
+    color: #555;
+    padding-left: 10px;
+}
+
+.sidebarMenu{
+    margin-bottom: 30px;
+}
+
+.sidebarList{
+    list-style:none;
+    padding: 5px;
+}
+
+/* .sidebarTitle:hover{
+    color:red;
+    cursor: pointer;
+} */
+
+
+.sidebarListItem{
+
+    padding: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    /* border-radius: 10px; */
+
+}
+
+
+.sidebarListItem.active, .sidebarListItem:hover{
+    background-color: rgb(191, 179, 247);
+    font-weight : bold;
+    color:rgb(38, 3, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* 
+.sidebarListItem:hover{
+    cursor: pointer;
+    color:blue;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+ */
+

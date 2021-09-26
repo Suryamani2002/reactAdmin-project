@@ -1,0 +1,17 @@
+.userList{
+    flex:4;
+}
+
+
+
+
+
+.userListEdit{
+    outline:none;
+}
+
+
+.userListView{
+    cursor: pointer;
+
+}

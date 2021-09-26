@@ -1,0 +1,88 @@
+.home{
+    flex: 4;
+}
+
+
+
+.upperSide{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+    box-shadow: 5px 2px 0px 0px rgb(245, 238, 238);  
+}
+
+.right{
+    display: flex;
+}
+
+.left{
+    margin-right: 28px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(124, 124, 120);
+}
+
+.items{
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.items.active{
+    color: rgb(139, 18, 238);
+    font-weight: bold;
+    bottom: 0px;
+    position: relative;
+}
+
+.addItem{
+    margin-top: 25px;
+    margin-left:85px;
+}
+
+.bttn{
+    padding:5px;
+    width: 150px;
+    font-size: 15px;
+    border-style: none;
+    background-color: rgb(95, 5, 180);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+span{
+    /* margin-right:14px; */
+    padding-right: 15px;
+    padding-left: 0px;
+    /* left:7px;
+    position: relative; */
+    /* font-size: 20px; */
+}
+.refresh{
+    position: relative;
+    bottom: -5px;
+    cursor: pointer;
+}
+
+
+.edit{
+    position: relative;
+    font-size: 4px;
+    /* color: red; */
+    padding-left: 15px;
+    bottom: -4px;
+}
+
+.delete{
+    /* color: red; */
+    position: relative;
+    font-size: 4px;
+    padding-left: 15px;
+    bottom: -4px;
+
+}
