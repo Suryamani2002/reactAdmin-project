@@ -2,7 +2,7 @@
   "name": "project-mysite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Suryamani2002.github.io/",
+  "homepage": "http://Suryamani2002.github.io/reactAdmin-project",
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",

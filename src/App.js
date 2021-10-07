@@ -19,6 +19,22 @@ import Home from './pages/Home'
 import User from './pages/user/User';
 
 
+
+// export default function App() {
+//   return (
+//     <div>
+//       hello brother
+//     </div>
+//   )
+// }
+
+
+
+
+
+
+
+
 function App() {
   return (
     <Router>
@@ -34,20 +50,25 @@ function App() {
             <Home />
           </Route>
 
-          {/* <Route path="/users">
-            <UserList />
+          {/* <Route exact path="/project-mysite">
+            <Home />
           </Route> */}
 
+          <Route exact path="/reactAdmin-project">
+            <Home />
+          </Route>
+
+
+          <Route path="/user">
+            <User />
+          </Route>
+
           <Route path="/user/:userId">
-            <User/>
+            <User />
+            {/* <Home /> */}
           </Route>
 
         </Switch>
-
-
-
-         
-        
 
 
         {/* <Home /> */}
@@ -61,3 +82,49 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+// function App() {
+//   return (
+//     <Router>
+//       <Topbar />
+//       <div className="container">
+//         <Sidebar />
+//         {/* <div className="others">
+//           Other pages
+//         </div> */}
+
+//         <Switch>
+//           <Route exact path="/">
+//             <Home />
+//           </Route>
+
+//           {/* <Route path="/users">
+//             <UserList />
+//           </Route> */}
+
+//           <Route path="/user/:userId">
+//             <User/>
+//           </Route>
+
+//         </Switch>
+
+
+//         {/* <Home /> */}
+
+//         {/* <UserList /> */}
+
+//       </div>
+
+//     </Router>
+//   );
+// }
+
+// export default App;
